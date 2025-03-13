@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "allowJs": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "#src/*": [
+        "./src/*"
+      ]
+    }
+  }
+}

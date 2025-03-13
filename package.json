@@ -1,0 +1,48 @@
+{
+  "name": "engineering-meta",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm -r build",
+    "format": "prettier --write --cache ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alchem-x/engineering-meta.git"
+  },
+  "keywords": [],
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alchem-x/engineering-meta/issues"
+  },
+  "homepage": "https://github.com/alchem-x/engineering-meta#readme",
+  "description": "",
+  "devDependencies": {
+    "@babel/preset-env": "^7.27.2",
+    "@babel/preset-typescript": "^7.27.1",
+    "@vue/babel-plugin-jsx": "^1.4.0",
+    "@date-fns/tz": "^1.2.0",
+    "@emotion/css": "^11.13.5",
+    "@vueuse/core": "^13.3.0",
+    "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.2",
+    "date-fns": "^4.1.0",
+    "html-webpack-plugin": "^5.6.3",
+    "less-loader": "^12.3.0",
+    "lodash-es": "^4.17.21",
+    "naive-ui": "^2.41.1",
+    "pinia": "^3.0.3",
+    "prettier": "^3.5.3",
+    "style-loader": "^4.0.0",
+    "yaml-loader": "^0.8.1",
+    "vue": "^3.5.16",
+    "vue-i18n": "^11.1.5",
+    "vue-loader": "^17.4.2",
+    "vue-router": "^4.5.1",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  }
+}
