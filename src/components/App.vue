@@ -1,13 +1,16 @@
 <template>
-  <div class="app-container">
+  <div :id="id" class="app-container">
     <I18NTable />
     <TimeTable />
   </div>
 </template>
 
 <script setup>
+import { useId } from 'vue'
 import I18NTable from '@/components/I18nTable.vue'
 import TimeTable from '@/components/TimeTable.vue'
+
+const id = useId()
 </script>
 
 <style scoped lang="less">
